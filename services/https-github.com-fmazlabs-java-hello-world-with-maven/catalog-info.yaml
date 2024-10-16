@@ -1,0 +1,15 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: https-github.com-fmazlabs-java-hello-world-with-maven
+  tags:
+    - auto-generated
+  annotations:
+    backstage.io/source-location: url:https://github.com/FMLABSINDIA/https-github.com-fmazlabs-java-hello-world-with-maven
+    github.com/project-slug: fmlabsindia/https-github.com-fmazlabs-java-hello-world-with-maven
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Harness_Account_All_Users
+  system: fmlabsindia

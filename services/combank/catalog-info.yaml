@@ -1,0 +1,15 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: combank
+  tags:
+    - auto-generated
+  annotations:
+    backstage.io/source-location: url:https://github.com/FMLABSINDIA/combank
+    github.com/project-slug: fmlabsindia/combank
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Harness_Account_All_Users
+  system: fmlabsindia

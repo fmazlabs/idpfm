@@ -1,0 +1,15 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: idpsample
+  tags:
+    - auto-generated
+  annotations:
+    backstage.io/source-location: url:https://github.com/FMLABSINDIA/idpsample
+    github.com/project-slug: fmlabsindia/idpsample
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Harness_Account_All_Users
+  system: fmlabsindia
